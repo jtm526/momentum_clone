@@ -6,6 +6,11 @@ body {
     align-items: center;
 }
 
+.clock {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
 .hidden {
     display: none;
 }
