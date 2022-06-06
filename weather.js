@@ -4,6 +4,7 @@ function getWeather(position) {
     const latitude = position.coords.latitude;
     const longitude = position.coords.longitude;
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}`;
+    console.log(url);
     
 }
 function onError() {
