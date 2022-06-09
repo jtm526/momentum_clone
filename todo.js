@@ -4,8 +4,9 @@ const toDoList = document.querySelector(".todo-lists");
 
 let toDos = [];
 
-function handleSubmit() {
-    
+function handleSubmit(event) {
+    event.preventDefault();
+    const newToDo = toDoInput.value;
 }
 
 toDoForm.addEventListener("submit", handleSubmit);
