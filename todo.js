@@ -7,6 +7,7 @@ let toDos = [];
 function handleSubmit(event) {
     event.preventDefault();
     const newToDo = toDoInput.value;
+    toDoInput.value = "";
 }
 
 toDoForm.addEventListener("submit", handleSubmit);
